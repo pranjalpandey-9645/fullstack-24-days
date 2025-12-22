@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kyros web page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="header">
+            <h1 class="header">Welcome to My Website</h1>
+        </div>
+        <div id="boiler">
+            <section class="boiler">
+                <h2>Please Log In</h2>
+            </section>
+    </header>
+    <section class="login">
+        <form action="/submit" method="post">
+            <br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <div class="remember_me">
+                <input type="radio" id="male" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">Female</label>
+            </div>
+        </form>
+        <button class="login_button" type="submit" onclick="login()">Login</button>
+        <button class="register_button" type="submit" onclick="register()">Register</button>
+    </section>
+    <div id="comment_section">
+        <h2 class="comment">Comment</h2>
+        <textarea id="message" name="message" rows="12" cols="108" placeholder="Enter you text here...">
+        </textarea>
+    </div>
+    <h3 class="footer">Quotes</h3>
+    <p class="quote">"The only limit to our realization of tomorrow is our doubts of today." - Franklin D. Roosevelt</p>
+    <p class="quote">"In the middle of every difficulty lies opportunity." - Albert Einstein</p>
+
+    <footer>
+        <div id="lower_footer">
+            <p class="lower">© 2024 Kyros. All rights reserved.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
