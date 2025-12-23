@@ -1,12 +1,12 @@
-.title-container {
+.header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     background-color: black;
-    color: rgb(65, 142, 215);
+    color: rgb(104, 193, 193);
     padding: 10px;
     display: flex;
     border: 2px solid rgb(82, 200, 191);
-    border-radius: 10px;
+    border-radius: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -29,6 +29,13 @@
     border-radius: 10px;
     background-color: black;
     text-align: center;
+}
+
+.hero-section ol {
+    list-style-type: square;
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .about {
@@ -69,3 +76,8 @@ body {
   background-attachment: fixed;          /* Keeps image static while scrolling (optional) */
 }
 
+.copyright {
+    text-align: center;
+    color: cyan;
+    background-color: black;
+}
