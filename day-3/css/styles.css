@@ -1,0 +1,41 @@
+.header{
+    color: rgb(0, 0, 0);
+    background-color: rgb(112, 231, 229);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin:auto;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.about{
+    color: blue;
+    background-color: rgb(226, 229, 85);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin:auto;
+    padding:20px;
+    border-radius: 30px;
+}
+
+.info{
+    color: rgb(10, 12, 19);
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: center;
+    margin:auto;
+}
+
+.tag{
+    color:rgb(231, 9, 153);
+    background-color: yellow;
+}
+
+body{
+    background-image: url('assets/download.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
