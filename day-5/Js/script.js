@@ -1,1 +1,1 @@
-alert("It's me not you!")
+alert('Hello, DAEMON!');
