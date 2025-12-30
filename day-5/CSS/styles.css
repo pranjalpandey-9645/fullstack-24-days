@@ -15,6 +15,7 @@ ul li {
     padding: 5px;
     border: 1px solid white;
     color: black;
+    margin: 5px;
 }
 
 .title-box {
@@ -22,7 +23,7 @@ ul li {
     justify-content: center;
     color: black;
     font-size: 50px;
-    margin:5px;
+    margin: 5px;
     padding: 10px;
     color: black;
     font-family: "Libre Baskerville", serif;
@@ -36,23 +37,75 @@ ul li {
 .image-container img {
     height: 300px;
     width: 400px;
+    border-radius: 8px;
+    margin: 3px;
+    padding: 3px;
 }
 
-.description{
+.description {
     text-align: center;
     color: black;
     font-family: "Merriweather", serif;
     border-radius: 10px;
-    border:1px solid black;
+    border: 1px solid black;
     margin: 25px;
     padding: 10px;
 }
 
-.description h3{
+.description h3 {
     text-align: center;
     font-family: Arial black;
     font-size: 21px;
     font-style: bold;
     margin: 10px;
     padding: 10px;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 566px;
+    width: 410px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    box-shadow: -15px 13px 6px rgba(215, 190, 190, 0.712);
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+
+.image-wrapper img {
+    border-radius: 8px;
+    margin: 3px;
+    padding: 3px;
+}
+
+.card-container {
+    perspective: 1200px;
+}
+
+.capsule {
+    text-align: center;
+    color: #212529;
+    border-radius: 0.25rem;
+    border: #343a40 2px solid;
+    padding: 2px;
+    text-align: center;
+    margin: 10px;
 }
