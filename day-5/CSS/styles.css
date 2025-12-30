@@ -18,6 +18,11 @@ ul li {
     display: flex;
     justify-content: center;
     color: black;
+    font-size: 50px;
+    margin:5px;
+    padding: 10px;
+    color: black;
+    font-family: Lobster;
 }
 
 .image-container {
@@ -28,4 +33,14 @@ ul li {
 .image-container img {
     height: 300px;
     width: 400px;
+}
+
+.description{
+    text-align: center;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 10px;
+    border:1px solid black;
+    margin: 25px;
+    padding: 10px;
 }
