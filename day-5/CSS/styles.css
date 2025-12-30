@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Lobster&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     padding: 0px;
     margin: 0px;
@@ -5,13 +7,14 @@
 
 ul {
     display: flex;
+    justify-content: right;
 }
 
 ul li {
     list-style: none;
     padding: 5px;
     border: 1px solid white;
-    color: blueviolet;
+    color: black;
 }
 
 .title-box {
@@ -22,7 +25,7 @@ ul li {
     margin:5px;
     padding: 10px;
     color: black;
-    font-family: Lobster;
+    font-family: "Libre Baskerville", serif;
 }
 
 .image-container {
@@ -38,9 +41,18 @@ ul li {
 .description{
     text-align: center;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Merriweather", serif;
     border-radius: 10px;
     border:1px solid black;
     margin: 25px;
+    padding: 10px;
+}
+
+.description h3{
+    text-align: center;
+    font-family: Arial black;
+    font-size: 21px;
+    font-style: bold;
+    margin: 10px;
     padding: 10px;
 }
