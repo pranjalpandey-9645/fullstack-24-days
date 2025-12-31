@@ -111,7 +111,7 @@ ul li {
 }
 
 body {
-    background-image: url("https://pin.it/7d4jha1y8");
+    /* background-image: url("https://pin.it/7d4jha1y8"); */
     background-repeat: no-repeat; /* Prevents image from tiling */
     background-size: cover; /* Scales image to cover the area */
     background-position: center; /* Centers the image */
