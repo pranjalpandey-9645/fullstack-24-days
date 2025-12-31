@@ -1,0 +1,6 @@
+body{
+    background-image: url("assets/xvs");
+    background-position: fixed;
+    background-repeat: no-repeat;
+    backface-visibility: visible;
+}
