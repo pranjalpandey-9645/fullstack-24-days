@@ -11,6 +11,7 @@
 }
 
 .container {
+    /* position: absolute; */
     display: flex;
     justify-content: center;
     /* var is a variable that is used for those values which are used more over in the code. */
@@ -23,9 +24,14 @@
     gap: 10px 10px;
     /* This will wrap the items to scroll down or up to see the other items. */
     flex-wrap: wrap;
+    /* This will fix the direction of the flexbox items. */
+    flex-direction: row;
+    /* This will tells the direction of the wrap. */
+    flex-flow: row;
 }
 
 .item {
+    /* position: relative; */
     border: var(--primary-border-color);
     height: 10rem;
     width: 10rem;
@@ -35,25 +41,25 @@
 .item-1 {
     /* This will align the item by self that means a particular item. 
     But the item will align fro the start of the flexbox. */
-    align-self: flex-start;
+    /* align-self: flex-start; */
 }
 
 .item-2 {
     /* This will align the items from the end of the flexbox. */
-    align-self: flex-end;
+    /* align-self: flex-end; */
 }
 
 .item-3 {
     /* This will align the items in centre by itself. */
-    align-self: center;
+    /* align-self: center; */
 }
 
 .item-4 {
     /* This will align in last according to the baseline of the flexbox. */
-    align-self: last baseline;
+    /* align-self: last baseline; */
 }
 
 .item-5 {
     /* This will align in first place accroding to the baseline of the flexbox. */
-    align-self: first baseline;
+    /* align-self: first baseline; */
 }
