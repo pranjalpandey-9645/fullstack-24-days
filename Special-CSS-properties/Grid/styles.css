@@ -12,6 +12,10 @@
     --secondary-font-family: 'Archivo Black', Playfair Display, Lora, PT Serif, serif;
 }
 
+header {
+    position: sticky;
+}
+
 nav {
     margin: 20px;
     display: flex;
@@ -20,7 +24,6 @@ nav {
     border: 1px slategray solid;
     border-radius: 3px;
     background-color: #f6f6f6;
-    position: sticky;
     flex-wrap: wrap;
 }
 
@@ -60,17 +63,38 @@ nav {
 
 .information-container {
     text-align: center;
-    font-size: 1.6;
+    font-size: 18px;
     font-family: Lora;
     margin: 30px;
     color: #777171;
 }
 
-.box-container{
-    display: grid;
+.box-container div .container {
+    /* display: grid;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    border: var(--primary-border-color);
-    height: 80vh;
+    /* border: var(--primary-border-color); */
+    /* height: 80vh;
+    width: 100%;
+    border-color: #777171;
+    background-color: #fff;
+    border-width: 1px; */
+    display: grid;
+    justify-content: space-between;
+    border: #777171 1px solid;
+    height: 30px;
+    width: 50px;
+    flex-wrap: wrap;
+    margin: 10px;
 }
+
+/* .container { */
+    /* display: flex;
+    justify-content: space-between;
+    border: #777171 1px solid;
+    height: 30px;
+    width: 50px;
+    flex-wrap: wrap;
+    margin: 10px; */
+/* } */
