@@ -8,7 +8,7 @@
 :root {
     --primary-border-color: 2px solid black;
     --Box-color: rgb(238, 130, 238);
-    --Primary-font-family-: Google Sans Flex, 'Archivo Black', Playfair Display, Lora, PT Serif, serif;
+    --Primary-font-family: Google Sans Flex, 'Archivo Black', Playfair Display, Lora, PT Serif, serif;
     --secondary-font-family: 'Archivo Black', Playfair Display, Lora, PT Serif, serif;
 }
 
@@ -57,8 +57,7 @@ nav {
 .Containers-to-download h1 {
     margin: 70px;
     text-align: center;
-    font-family: var(--Primary-font-family-);
-    font-family: Google Sans flex;
+    font-family: var(--Primary-font-family);
     font-size: 40px;
 }
 
@@ -79,35 +78,7 @@ nav {
     padding: 0 20px;
 }
 
-.product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
-    width: 100%;
-}
-
-.product-box {
-    background: white;
-    border: 1px solid #e0e0e0;
-    border-radius: 12px;
-    padding: 30px 20px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    height: 280px;
-    /* Matches image proportions [file:11] */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
 .box {
     display: grid;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    height: 45%;
-    width: 60%;
-    border: #777171;
+    justify-items: center;
 }
