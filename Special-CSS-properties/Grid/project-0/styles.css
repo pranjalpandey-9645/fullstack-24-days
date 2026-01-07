@@ -79,6 +79,13 @@ nav {
     text-decoration: none;
 }
 
+.image-logo {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
 .box-container {
     display: flex;
     justify-content: center;
@@ -103,11 +110,6 @@ nav {
     width: 40vw;
     background-color: var(--Box-color);
     border-radius: 8px;
-}
-
-.box img{
-    padding-left: 221px;
-    padding-top: 2px;
 }
 
 .b-1 {
