@@ -16,7 +16,7 @@ header {
     position: sticky;
     top: 0;
 }
-
+/* This is the navbar of the page! */
 nav {
     margin: 20px;
     display: flex;
@@ -57,7 +57,7 @@ nav {
 .Containers-to-download p {
     margin: 20px;
 } 
-/* This contains the about section of the Ultraedit */
+/* This contains the about section of the Ultraedit page section */
 .about-the-product {
     text-align: center;
     font-size: 18px;
@@ -83,25 +83,18 @@ nav {
     text-decoration: none;
 }
 /* This is the logo with a heading and its updated versions date and time. */
-.image-logo {
-    display: inline;
-    justify-content: center;
-    justify-items: center;
-    align-items: center;
-
-}
-
 .image-logo img {
-    display: inline;
-    justify-content: left;
-    justify-items: center;
-    align-items: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  gap: 10px;
 }
 
-span h3 {
+.image-logo span {
     font-size: 12px;
-    color: #777171;
+    color: #1b1919;
     text-align: left;
+    white-space: nowrap;
 }
  /*--- These properties are for the boxes ---*/
 .box-container {
@@ -142,12 +135,16 @@ span h3 {
 }
 
 .box button {
-    align-self: center;
+    /* position: relative;
+    display: inline-block;
+    justify-items: center;
+    right: 45%; */
     background-color: rgb(204, 204, 19);
     border: 1px solid rgb(255, 255, 6);
     border-radius: 5px;
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 510;
     margin: 10px;
     padding: 10px;
 }
