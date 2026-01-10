@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --primary-border-color: 1px solid rgb(155, 151, 151);
+    --Box-color: rgba(245, 241, 238, 0.511);
+    --Primary-font-family: Google Sans Flex, 'Archivo Black', Playfair Display, Lora, PT Serif, serif;
+    --secondary-font-family: 'Archivo Black', Playfair Display, Lora, PT Serif, serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+/* This is the navbar of the page! */
+nav {
+    display: flex;
+    border: var(--primary-border-color);
+    margin: 20px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.menu .logo img {
+    display: flex;
+    align-self: left;
+}
+
+.menu ul {
+    display: flex;
+    gap: 30px;
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    cursor: pointer;
+}
+
+nav .button {
+    display: flex;
+    justify-items: right;
+    background-color: #ffd400;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.download-container {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.download-container h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.download-container p {
+    font-size: 16px;
+    color: #555;
+    max-width: 700px;
+    margin: 0 auto 25px;
+}
+
+.button {
+    background-color: #ffd400;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 20px 8px;
+    cursor: pointer;
+}
+
+.button a {
+    color: black;
+    text-decoration: none;
+}
+
+/*--- These properties are for the boxes ---*/
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.box {
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.box p {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    margin-bottom: 18px;
+}
+
+.box button {
+    border: none;
+    background-color: #ffd400;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+ .mid-body-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    margin: 10px;
+    padding: 100px 100px; 
+ }
+
+.black-box {
+    background-color: slategrey;
+    width: 500px;
+    height: 150px;
+}
+
+.black-box h3{
+    text-align: center;
+    margin: 30px;
+}
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(233, 239, 241);
+    }
+}
