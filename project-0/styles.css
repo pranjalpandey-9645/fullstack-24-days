@@ -30,7 +30,6 @@ nav {
 
 .menu .logo img {
     display: flex;
-    width: 40px;
     align-self: left;
 }
 
@@ -44,6 +43,15 @@ ul li {
     justify-content: center;
     list-style: none;
     cursor: pointer;
+}
+
+nav .button{
+    display: flex;
+    justify-items: right;
+    background-color: #ffd400;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
 }
 
 .download-container {
