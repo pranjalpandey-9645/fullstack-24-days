@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0f0;
+    color: #000000;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+main {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+p {
+    text-align: left;
+    padding: 0 20px;
+}
+
+code {
+    color: firebrick;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: color-mix(in hsl shorter hue, #24e7e7 50%, #c54141 50%);
+    border: solid 2px;
+}
+
+.box-animate {
+    animation-name: moveObject;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes moveObject {
+    from {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(300px);
+    }
+
+    to {
+        transform: translateZ(300px) scale(1.5);
+    }
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #008080;
+}
