@@ -15,21 +15,23 @@ for (let page = 0; page < 10; page++) {
 
 /* The below block of the code is not written but copied from 
 the mdn website just to know more about the loops and the 
-functionality they show. */
+functionality they show. And for now we are actually using the
+function there which is not todays task so let it go because we are using
+it jsut to take a basic overview. */
 
-function countSelected(selectObject) {
-    let numberSelected = 0;
-    for (let i = 0; i < selectObject.options.length; i++) {
-        if (selectObject.options[i].selected) {
-            numberSelected++;
-        }
-    }
-    return numberSelected;
-}
+// function countSelected(selectObject) {
+//     let numberSelected = 0;
+//     for (let i = 0; i < selectObject.options.length; i++) {
+//         if (selectObject.options[i].selected) {
+//             numberSelected++;
+//         }
+//     }
+//     return numberSelected;
+// }
 
-const btn = document.getElementById("btn");
+// const btn = document.getElementById("btn");
 
-btn.addEventListener("click", () => {
-    const musicTypes = document.selectForm.musicTypes;
-    console.log(`You have selected ${countSelected(musicTypes)} option(s).`);
-});
+// btn.addEventListener("click", () => {
+//     const musicTypes = document.selectForm.musicTypes;
+//     console.log(`You have selected ${countSelected(musicTypes)} option(s).`);
+// });
